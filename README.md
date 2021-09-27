@@ -1,8 +1,4 @@
-# Telephone-Directory-System
+# Food-on-Wheels
+Food on Wheels is a Food Delivery Management System available as a desktop application. This application will help restaurants and customers prepare/make orders using a desktop application that will make their orders as simple as a click of a button away.
 
-A telephone book system, also known as a telephone directory, telephone address book, or Phone book, is
-a listing of telephone subscribers in a geographical area or subscribers to services provided by the
-organization that publishes the directory. Its purpose is to allow the telephone number of a subscriber
-identified by name and address to be found. The features of telephone book system are mainly related to
-adding, listing, searching, sorting, modifying and deleting telephone directory-related records. Here we
-are going to create a java application for Telephone directory system.
+NOTE: The GUI of this program doesnot properly works, but the console based code works properly so that's why I have made seprate classes for GUI code and linked it. To run console based code you have to run "Main" file and to run GUI based code just run "mainGUI" file
