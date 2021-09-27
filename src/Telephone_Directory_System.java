@@ -15,8 +15,7 @@ public class Telephone_Directory_System {
     		System.out.println("4) Update record:");
     		System.out.println("5) Sort record:");
     		System.out.println("6) Search record");
-    		System.out.println("7) Recent Birthdays");
-    		System.out.println("8) Exit the program");
+    		System.out.println("7) Exit the program");
     		System.out.println("------------------------------");
     		int select=input.nextInt();
     		switch(select)												           //switch statement for cases
@@ -58,13 +57,9 @@ public class Telephone_Directory_System {
                      
                      
                      Scanner in = new Scanner(System.in);				//taking date of birth from user
-                     int date_of_birth = 0;
-                     while(date_of_birth<1 || date_of_birth>12)
-                     {
-                    	 System.out.println("Enter your month of Birth(in integer from 1-12)");		
-                    	 date_of_birth=in.nextInt();
-                         contact.setDateofBirth(date_of_birth); 
-                     }
+                     System.out.println("Enter your month of Birth");
+                     String date_of_birth =in.nextLine();
+                     contact.setMobile(date_of_birth);
                      
                      
                      System.out.println("Enter you mobile model");					//taking phone number from user
@@ -186,14 +181,7 @@ public class Telephone_Directory_System {
         			}
     			}
     			
-    			
-    			case 7:												//for birthday of same month
-    			{
-    				phonebook.birthday_checking();
-    			}
-    			
-    			
-    			case 8:
+    			case 7:
     			{
     				System.exit(0);
     			}

@@ -9,7 +9,7 @@ public class subscriber {
     private String country;
     private String residential_address;
     private String website;
-    private int DateofBirth;
+    private String DateofBirth;
     private String mobile;
     private String company;
     private int ID;
@@ -62,10 +62,10 @@ public class subscriber {
 	public void setWebsite(String website) {
 		this.website = website;
 	}
-	public int getDateofBirth() {
+	public String getDateofBirth() {
 		return DateofBirth;
 	}
-	public void setDateofBirth(int dateofBirth) {
+	public void setDateofBirth(String dateofBirth) {
 		DateofBirth = dateofBirth;
 	}
 	public String getMobile() {
