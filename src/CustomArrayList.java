@@ -225,21 +225,6 @@ public class CustomArrayList <T> {
 	   
    }
    
-   void birthday_checking()												//method to print the recent birthday
-   {
-
-	   Calendar localCalendar = Calendar.getInstance(TimeZone.getDefault());
-       int currentMonth = localCalendar.get(Calendar.MONTH) + 1;
-       
-       for(int i=0;i<size;i++)
-       {
-    	   subscriber sub = (subscriber) array[i];
-    	   if(currentMonth==sub.getDateofBirth())	 //will display details of all the users that have birthday in same month
-    	   {
-    		   System.out.println(array[i]);
-    	   }
-       }
-	  
-   }
+  
 
 }
